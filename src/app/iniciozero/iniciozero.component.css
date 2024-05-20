@@ -1,0 +1,76 @@
+main {
+    min-height: 500px;
+}
+
+#section-banner {
+    min-height: 400px;
+}
+
+#section-banner img {
+    height: 500px;
+}
+
+.example-card {
+    max-width: 400px;
+}
+
+.example-header-image {
+    background-image: url(../../assets/img/cat5.jpg);
+    background-size: cover;
+}
+
+mat-grid-list {
+    margin: 10px 0px;
+}
+
+mat-grid-tile {
+    padding: 2px;
+    border-radius: 30px;
+}
+
+t-card-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+t-card-actions {
+        display: flex;
+        justify-content: space-around;
+}
+
+mat-card-actions p {
+        color: red;
+        font-size: 30px;
+        background-color: rgb(223, 219, 232);
+}
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    15% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+      }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  mat-card-actions p {
+    color: red;
+    font-size: 30px;
+    animation: blink 2s infinite;
+  }
+  
+
+mat-card img {
+        height: 300px;
+        width: 300px;
+}

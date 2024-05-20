@@ -25,9 +25,11 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": ["./node_modules/bootstrap/dist/js/bootstrap.js"],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -89,12 +91,17 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["./node_modules/bootstrap/dist/js/bootstrap.js"]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "fc6d4d7f-5aa6-4f2d-9746-eba13b87ced7"
   }
 }
